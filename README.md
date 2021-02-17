@@ -23,11 +23,11 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### 📝 Schema
-🔥 Views\
-📍 Components\
+🔥 :Views\
+📍 :Components\
 
 🔥 Header ✔\
-    📍 navbar ✔\
+    \t📍 navbar ✔\
     📍 header-intro ✔\
     📍 header-illustration ✔\
 🔥 About\
