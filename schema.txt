@@ -1,0 +1,17 @@
+🔥 : global
+📍 : components
+
+🔥 Header
+    📍 navbar
+    📍 header-intro
+    📍 header-illustration 
+🔥 About
+🔥 Projects
+    📍 web projects
+    📍 logo projects
+    📍 web & mobile app projects
+🔥 Contact
+    📍 contact form
+    📍 contact caption
+🔥 Footer
+🔥 Copyright  

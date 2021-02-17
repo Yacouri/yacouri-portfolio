@@ -1,0 +1,54 @@
+.header-wrapper{
+    position: relative;
+}
+.randomlines{
+    position: absolute;
+    width: 100%;
+    height:400px;
+    background-image: url('../../images/random-lines.png');
+    background-repeat: no-repeat;
+    background-size: fill;
+    z-index: -99;
+    opacity: 0.8;
+}
+.container{
+    margin: 10% 100px 0 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.hello-message{
+    color:#F0F8FF;
+    font-size: 40px;
+    font-weight: 600;
+}
+.s-title{
+    color: #FDDC7D;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-weight: 200;
+}
+.more-btn{
+    padding: 13px 120px 13px 120px;
+    border: 2px solid #F0F8FF;
+    border-radius: 0.75rem;
+    background-color: transparent;
+    color: #F0F8FF;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.more-btn:hover{
+    background-color: #F0F8FF;
+    color: #17252A;
+}
+.header-illustration{
+    margin-top: -80px;
+}
+.icons{
+    margin-top:20px;
+}
+.icon{
+    color: #F0F8FF;
+    margin: 10px;
+}
