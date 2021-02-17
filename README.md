@@ -27,7 +27,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 📍 :Components\
 
 🔥 Header ✔\
-    \t📍 navbar ✔\
+    📍 navbar ✔\
     📍 header-intro ✔\
     📍 header-illustration ✔\
 🔥 About\
