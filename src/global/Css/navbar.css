@@ -1,5 +1,6 @@
 .nav-wrapper{
-    margin: 40px 100px 0 100px;
+    margin: 3% 15% 0% 15%;
+    height: 100vh;
 }
 .navbar{
     display:flex;
@@ -39,4 +40,18 @@
 .contact-btn:hover{
     background-color: #F0F8FF;
     color: #17252A;
+}
+
+/* media query*/
+@media (max-width: 480px) {
+    
+}
+@media (max-width: 768) {
+    
+}
+@media (max-width: 1024) {
+    
+}
+@media (max-width: 1200px) {
+    
 }

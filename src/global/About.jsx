@@ -1,6 +1,7 @@
 import React from 'react';
-import './Css/about.css'
 import * as Icon from 'react-feather';
+import Cv from '../downloads/Zouhir Yacouri (cv).pdf';
+import './Css/about.css'
 
 const About = () => {
     return (
@@ -14,17 +15,18 @@ const About = () => {
                     I'm a full stack web developer & Ui/Ux Designer.<br />
                     I help small businesses to bring their ideas to real life.
                 </p>
-                <div className="buttons">
-                    <a className="download-cv">
-                        <span>Download my CV</span>
-                        <Icon.Download className="download-icon"/>
-                    </a>
-                    <br />
-                    <a className="goto-project">
-                        <span>Go to projects</span>
-                        <Icon.Briefcase className="briefcase-icon"/>
-                    </a>
-                </div>
+                        <a href={Cv} className="abb-one" download>
+                            Download my CV
+                            <Icon.Download className="download-icon"/>
+                        </a>
+                    
+                <br />
+                
+                        <a href="#projects" className="abb-two">
+                            Go to projects
+                            <Icon.Briefcase className="briefcase-icon"/>
+                        </a>
+                
             </div>
         </div>
     );

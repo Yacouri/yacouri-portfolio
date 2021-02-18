@@ -1,6 +1,3 @@
-.about-wrapper{
-    margin-top: 10%;
-}
 .about-title{
     color: #F0F8FF;
     text-align: center;
@@ -18,38 +15,38 @@
     text-align: center;
     margin-top:25px;
 }
-.download-cv{
-    font-size: 13px;
-    width: 425px;
-    height: 53px;
+.abb-one{
+    width: 200px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    color: #F0F8FF;
     border: 2px solid #F0F8FF;
     border-radius: 0.75rem;
-    outline: none;
-    background-color: transparent;
+    padding: 15px 100px 15px 100px;
+    text-decoration: none;
+}
+.abb-one > .download-icon{
     color: #F0F8FF;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
 }
-.download-cv:hover{
-    background-color: #F0F8FF;
+
+.abb-two{
+    width: 200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
     color: #17252A;
-}
-.download-cv > span{
-}
-.download-cv > .download-icon{
-}
-.goto-project{
-    font-size: 13px;
-    width: 425px;
-    height: 53px;
-    border-radius: 0.75rem;
-    outline: none;
     background-color: #FDDC7D;
-    color: #17252A;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+    border-radius: 0.75rem;
+    padding: 15px 100px 15px 100px;
+    text-decoration: none;
 }
-.goto-project:hover{
-    background-color: #F0F8FF;
+.abb-two > .briefcase-icon{
     color: #17252A;
 }
+/* media query*/
+@media (max-width: 480px) {}
+@media (max-width: 768px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 1200px) {}

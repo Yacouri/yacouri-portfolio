@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 import './Css/navbar.css'
 
 const Navbar = () => {
@@ -25,6 +26,7 @@ const Navbar = () => {
                     <a href="#contact" className="contact-btn">Get in touch</a>
                 </div>
             </nav>
+            <Header />
         </div>
     );
 }

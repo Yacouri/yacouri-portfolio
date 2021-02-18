@@ -3,16 +3,17 @@
 }
 .randomlines{
     position: absolute;
+    top:500px;
     width: 100%;
     height:400px;
     background-image: url('../../images/random-lines.png');
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: contain;
     z-index: -99;
     opacity: 0.8;
 }
 .container{
-    margin: 10% 100px 0 100px;
+    margin-top: 15%;
 }
 .header{
     display: flex;
@@ -26,7 +27,7 @@
 .s-title{
     color: #FDDC7D;
     margin-top:20px;
-    margin-bottom:20px;
+    margin-bottom:30px;
     font-weight: 200;
 }
 .more-btn{
@@ -52,4 +53,18 @@
 .icon{
     color: #F0F8FF;
     margin: 10px;
+}
+
+/* media query*/
+@media (max-width: 480px) {
+    
+}
+@media (max-width: 768) {
+    
+}
+@media (max-width: 1024) {
+    
+}
+@media (max-width: 1200px) {
+    
 }
