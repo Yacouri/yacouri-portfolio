@@ -33,6 +33,7 @@
     padding: 13px 120px 13px 120px;
     border: 2px solid #F0F8FF;
     border-radius: 0.75rem;
+    outline: none;
     background-color: transparent;
     color: #F0F8FF;
     cursor: pointer;

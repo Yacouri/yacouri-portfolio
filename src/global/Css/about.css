@@ -1,0 +1,55 @@
+.about-wrapper{
+    margin-top: 10%;
+}
+.about-title{
+    color: #F0F8FF;
+    text-align: center;
+}
+.udl{
+    height: 7px;
+    width: 30px;
+    background-color: #FDDC7D;
+    border:none;
+    border-radius: 15px;
+    margin: auto;
+}
+.caption{
+    color:#F0F8FF;
+    text-align: center;
+    margin-top:25px;
+}
+.download-cv{
+    font-size: 13px;
+    width: 425px;
+    height: 53px;
+    border: 2px solid #F0F8FF;
+    border-radius: 0.75rem;
+    outline: none;
+    background-color: transparent;
+    color: #F0F8FF;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.download-cv:hover{
+    background-color: #F0F8FF;
+    color: #17252A;
+}
+.download-cv > span{
+}
+.download-cv > .download-icon{
+}
+.goto-project{
+    font-size: 13px;
+    width: 425px;
+    height: 53px;
+    border-radius: 0.75rem;
+    outline: none;
+    background-color: #FDDC7D;
+    color: #17252A;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.goto-project:hover{
+    background-color: #F0F8FF;
+    color: #17252A;
+}
